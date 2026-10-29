@@ -1,0 +1,119 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs
+frontend/dist/
+frontend/build/
+frontend/.vite/
+backend/dist/
+backend/build/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+*.env
+
+# Database
+backend/database.sqlite
+backend/database.db
+backend/*.sqlite
+backend/*.sqlite3
+backend/*.db
+*.sqlite
+*.sqlite3
+*.db
+mysql_data/
+dump.sql
+*.sql.gz
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+.pm2/
+pids/
+*.pid
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.vscode/settings.json
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Frontend Vite / React
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+
+# Backend
+backend/node_modules/
+backend/logs/
+
+# Uploads & generated files
+uploads/
+public/uploads/
+backend/uploads/
+frontend/public/uploads/
+*.zip
+*.tar.gz
+hotel-pos.zip
+
+# Security / Secrets
+.ssh/
+.pem
+*.key
+*.crt
+*.p12
+secrets/
+credentials.json
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.turbo/
+.next/
+.nuxt/
+.output/
+
+# Testing
+coverage/
+junit.xml
+test-results/
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+temp_uploads/
